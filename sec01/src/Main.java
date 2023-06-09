@@ -21,6 +21,13 @@ public class Main {
         System.out.printf("이렇게 하면 지수의 출력 : %g\n", 100000000000.00D);      // 지수
         System.out.printf("이렇게 하면 실수의 출력 : %g\n", 42.195F);                   // 지수 or 실수
 
+        // String.format
+        System.out.println("String.format 출력예");
+        System.out.println(String.format("%d%d%d", 1,2,3));
+        String strOut = String.format("%d%d%d", 4,5,6);
+        System.out.println(String.format(strOut));
+
+
         // 출력문의 정렬
         System.out.printf("%5d\n", 1);
         System.out.printf("%5d\n", 12);
